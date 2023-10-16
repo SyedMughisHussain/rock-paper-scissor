@@ -1,0 +1,90 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #F6F7FA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-right: 200px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    height: 300px;
+    width: 350px;
+    margin: 80px auto;
+    background-color: #FFFFFF;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+    height: 50px;
+    cursor: pointer;
+}
+.imageLeft{
+    height: 70px;
+    width: 70px;
+    transform: rotate(90deg);
+}
+.imageRight{
+    height: 70px;
+    width: 70px;
+    transform: rotate(-90deg);
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+}
+.color{
+    color: #7D2AE8;
+    font-weight: bold;
+}
+.string{
+    text-align: center;
+    font-size: 30px;
+    color: #7D2AE8;
+}
+.rock{
+    opacity: 0.5;
+}
+.rock:hover{
+    opacity: 1;
+}
+.paper{
+    opacity: 0.5;
+}
+.paper:hover{
+    opacity: 1;
+}
+.scissor{
+    opacity: 0.5;
+}
+.scissor:hover{
+    opacity: 1;
+}
+.main {
+    display: flex;
+}
+.box{
+    height: 300px;
+    width: 10px;
+    background-color: #7D2AE8;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 120px;
+}
+.name{
+    color: #7D2AE8;
+    margin-left: 10px;
+    margin-top: 90px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.score{
+    display: flex;
+    padding: 5px;
+    color: #7D2AE8;
+}
